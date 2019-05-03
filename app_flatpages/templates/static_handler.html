@@ -3,14 +3,75 @@
 <html>
 
 <head>
-    {% load staticfiles %}
-<link rel="stylesheet" href="{% static 'static/index.css' %}">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/static/index.css">
 <title>Привет, Мир!</title>
 
 </head>
 
 <body>
+<style type="text/css">
+body {
 
+background: #1abc9c;
+
+font-family: Tahoma, TimesNewRomans, sans-serif;
+
+color: #333;
+
+}
+
+table {
+
+border-collapse: collapse;
+
+}
+
+p, h4 {
+
+font-size: 20px;
+
+margin-bottom: 0;
+
+}
+
+h4 {
+
+font-size: 14px;
+
+}
+
+ul, ol {
+
+margin: 0;
+
+}
+
+table tr td {
+
+padding: 5px;
+
+}
+
+table {
+
+width: 100%;
+
+}
+
+img {
+
+height: 30px;
+
+width: auto;
+
+}
+h1 {
+font-family: TimesNewRomans;
+}
+h4{
+font-size:20px;
+}
+</style>
 <h1>Привет, Мир!</h1>
 
 <h2>Это учебный сайт, с его помощью будут изучены технологии
